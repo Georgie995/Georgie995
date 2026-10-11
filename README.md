@@ -30,6 +30,6 @@ Technical roles that value operational judgement and AI-assisted work: technical
 
 **Daily work:** checksums and manifests (MD5, SHA-256), LTO/LTFS, rclone to S3, Terminal/CLI, Bash and shell (.sh) scripts, media asset management and tracking systems
 
-**Building with:** Python (AI-assisted), Git, pytest, JSON, SQL basics, SQLite, n8n (self-hosted in Docker), webhooks and REST, the Anthropic API (official Python SDK, structured outputs)
+**Building with:** Python (AI-assisted), Git, pytest, JSON, SQL basics, SQLite, n8n (self-hosted in Docker), webhooks and REST
 
-**Learning now:** evaluating LLM output in practice (live harness runs)
+**Learning now:** LLM APIs: the Anthropic Python SDK integration is built and tested against a stand-in; first live evaluation run pending
