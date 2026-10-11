@@ -30,8 +30,6 @@ Technical roles that value operational judgement and AI-assisted work: technical
 
 **Daily work:** checksums and manifests (MD5, SHA-256), LTO/LTFS, rclone to S3, Terminal/CLI, Bash and shell (.sh) scripts, media asset management and tracking systems
 
-**Building with:** Python (AI-assisted), Git, pytest, JSON, SQL basics, SQLite
-
-**Building with (new):** n8n (self-hosted in Docker), webhooks, REST and JSON
+**Building with:** Python (AI-assisted), Git, pytest, JSON, SQL basics, SQLite, n8n (self-hosted in Docker), webhooks and REST
 
 **Learning now:** LLM APIs
