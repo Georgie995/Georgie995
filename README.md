@@ -19,7 +19,7 @@ Each project documents its design decisions and what I did versus what the AI di
 | Project | What it does | Status |
 |---|---|---|
 | [manifest-doctor](https://github.com/Georgie995/manifest-doctor) | Checks a delivery against its checksum manifest and explains *why* files don't match: an extra wrapper folder, Mac vs Windows file names, a file listed twice with different checksums. JSON/CSV/Markdown reports, 148 tests. | Published |
-| delivery-ops-hub | An n8n workflow that receives verification reports by webhook, alerts on failures and keeps an audit log | Next |
+| [delivery-ops-hub](https://github.com/Georgie995/delivery-ops-hub) | An n8n workflow that receives verification results by webhook, logs every check and builds alerts for problems. Never silent when a check can't run or an alert can't be sent (outbox and resend). Alerts demonstrated as Teams cards in dry-run mode. | Published |
 | ai-triage | Uses an LLM to draft plain-English summaries of verification reports, with automated checks that catch invented or missing findings | Planned |
 
 ## What I'm looking for
@@ -32,4 +32,6 @@ Technical roles that value operational judgement and AI-assisted work: technical
 
 **Building with:** Python (AI-assisted), Git, pytest, JSON, SQL basics, SQLite
 
-**Learning now:** n8n, REST APIs and webhooks, LLM APIs
+**Building with (new):** n8n (self-hosted in Docker), webhooks, REST and JSON
+
+**Learning now:** LLM APIs
