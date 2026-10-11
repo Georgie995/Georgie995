@@ -20,7 +20,7 @@ Each project documents its design decisions and what I did versus what the AI di
 |---|---|---|
 | [manifest-doctor](https://github.com/Georgie995/manifest-doctor) | Checks a delivery against its checksum manifest and explains *why* files don't match: an extra wrapper folder, Mac vs Windows file names, a file listed twice with different checksums. JSON/CSV/Markdown reports, 148 tests. | Published |
 | [delivery-ops-hub](https://github.com/Georgie995/delivery-ops-hub) | An n8n workflow that receives verification results by webhook, logs every check and builds alerts for problems. Never silent when a check can't run or an alert can't be sent (outbox and resend). Alerts demonstrated as Teams cards in dry-run mode. | Published |
-| ai-triage | Uses an LLM to draft plain-English summaries of verification reports, with automated checks that catch invented or missing findings | Planned |
+| [ai-triage](https://github.com/Georgie995/ai-triage) | Uses Claude to draft plain-English notes on delivery verification reports, then checks every draft against the report (9 checks: nothing invented, dropped or softened; advice only from my own playbook). Includes a 20-case test harness with cost guard. | Published (live AI evaluation pending) |
 
 ## What I'm looking for
 
@@ -30,6 +30,6 @@ Technical roles that value operational judgement and AI-assisted work: technical
 
 **Daily work:** checksums and manifests (MD5, SHA-256), LTO/LTFS, rclone to S3, Terminal/CLI, Bash and shell (.sh) scripts, media asset management and tracking systems
 
-**Building with:** Python (AI-assisted), Git, pytest, JSON, SQL basics, SQLite, n8n (self-hosted in Docker), webhooks and REST
+**Building with:** Python (AI-assisted), Git, pytest, JSON, SQL basics, SQLite, n8n (self-hosted in Docker), webhooks and REST, the Anthropic API (official Python SDK, structured outputs)
 
-**Learning now:** LLM APIs
+**Learning now:** evaluating LLM output in practice (live harness runs)
