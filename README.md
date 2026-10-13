@@ -9,8 +9,10 @@ My day-to-day has been ingest, LTO/LTFS tape archive, checksum and manifest veri
 I build tools with AI coding assistants, and I say so openly. My part is:
 
 - **specifying** what to build, from real failures I've handled;
-- **testing** it, and reviewing its output the way an operator would;
-- **understanding** it well enough to explain every part.
+- **deciding** the safety rules and design choices, which are mine and are logged in each project;
+- **testing** it, and reviewing its output the way an operator would.
+
+I build quickly with AI, then study the core tools in depth. I'm currently learning manifest-doctor line by line, then delivery-ops-hub.
 
 Each project documents its design decisions and what I did versus what the AI did.
 
