@@ -1,6 +1,6 @@
 # Hi, I'm Georgi 👋
 
-I'm a post-production data I/O and archive specialist in London, moving into technical operations.
+I'm a post-production data I/O and archive specialist in London, with 4 years in Data I/O and archiving.
 
 My day-to-day has been ingest, LTO/LTFS tape archive, checksum and manifest verification, and file delivery to cloud storage. That means making sure what arrives, what gets archived and what gets delivered is exactly what it should be, and working out the root cause when it isn't.
 
@@ -12,7 +12,7 @@ I build tools with AI coding assistants, and I say so openly. My part is:
 - **deciding** the safety rules and design choices, which are mine and are logged in each project;
 - **testing** it, and reviewing its output the way an operator would.
 
-I build quickly with AI, then study the core tools in depth. I'm currently learning manifest-doctor line by line, then delivery-ops-hub.
+I build quickly with AI, then study the core tools in depth. Next, I'm studying manifest-doctor line by line, then delivery-ops-hub.
 
 Each project documents its design decisions and what I did versus what the AI did.
 
@@ -27,9 +27,16 @@ Each project documents its design decisions and what I did versus what the AI di
 | [delivery-desk](https://github.com/Georgie995/delivery-desk) | Joins my three delivery tools into one flow. One command checks a delivery, sends the alert, adds ai-triage's checked summary and, when problems are found, starts an incident note. A second command turns my filled-in note into an email for my manager, with my cause and fix copied word for word. It never sends anything or changes the delivery. 76 tests. | Published |
 | [ClearSum](https://github.com/Georgie995/clearsum) | The desktop app version of delivery-desk, for people who don't use the command line: drag in a delivery and its checksum manifest, get a plain-language answer that says what the check proved, turn any problems into an email for your manager, or compare two versions of a checksum list to see what changed. Calm "Paper" design, secrets kept in Windows Credential Manager, a downloadable Windows build, 161 tests including real checks driven through the window. | Published (v0.2.0 download) |
 
+**See it working:** [ClearSum](https://github.com/Georgie995/clearsum) is a Windows app built on these tools. [Download the latest version](https://github.com/Georgie995/clearsum/releases/latest).
+
+<a href="https://github.com/Georgie995/clearsum"><img src="https://raw.githubusercontent.com/Georgie995/clearsum/main/docs/screenshots/2-problems-found.png" width="720" alt="ClearSum showing the problems found in a synthetic delivery"></a>
+
 ## What I'm looking for
 
-Technical roles that value operational judgement and AI-assisted work: technical operations, support or implementation engineering, solutions engineering, and AI workflow or operations roles. London or remote UK.
+- **Post-production operations:** Data I/O, content operations, media asset management, post-production coordinator and post producer roles.
+- **Technical roles that value operational judgement and AI-assisted work:** technical operations, support or implementation engineering, solutions engineering, and AI workflow or operations roles.
+
+Based in London; open to roles in London or remote in the UK.
 
 ## Toolbox
 
@@ -38,3 +45,7 @@ Technical roles that value operational judgement and AI-assisted work: technical
 **Building with:** Python (AI-assisted), Git, pytest, JSON, SQL basics, SQLite, n8n (self-hosted in Docker), webhooks and REST, Windows desktop apps (pywebview, PyInstaller)
 
 **Learning now:** LLM APIs: the Anthropic Python SDK integration is built and tested against a stand-in; first live evaluation run pending
+
+## Contact
+
+The quickest way to reach me is [LinkedIn](https://www.linkedin.com/in/georgi-stoyanov-79a422157/).
